@@ -9,9 +9,9 @@
 #ifndef MainViewController_MusicControls_h
 #define MainViewController_MusicControls_h
 
-#import "MainViewController.h"
+#import <Cordova/CDVPlugin.h>
 
-@interface MainViewController (MusicControls)
+@interface MusicControls : CDVPlugin
 
 @end
 
